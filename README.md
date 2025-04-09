@@ -39,3 +39,30 @@ Provides a user-friendly HTML5 contact form with validation, allowing visitors t
 -Typography for Tech Theme- Custom font applied for a modern, professional look  
 
 
+#completed features for lab4
+1.Dark Mode Toggle
+-Works across all pages.
+-Dynamically adds button with persistent theme using localStorage.
+
+2.Contact Form
+-Full Name, Email, Subject, and Message inputs.
+-Basic HTML validation.
+-JavaScript validation for empty fields.
+
+3.Custom greeting message upon successful submission.
+-Form resets after submission.
+
+4.Dark Theme Styling
+-Backgrounds, text, and form fields adapt to dark mode.
+-Navigation, footer, and form styled for accessibility.
+
+5.Load Users Button
+-Custom-styled blue button with hover effect.
+
+6.Back to Top Button
+-Appears after scrolling down.
+-Smooth scrolls back to the top when clicked.
+-Styled to float in bottom-right corner.
+
+
+
