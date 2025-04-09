@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Lab 3</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
 </head>
 <body>
     <nav>
@@ -22,15 +24,22 @@
             <p> Explore our services and get in touch with us. We provide innovative solutions tailored to meet your needs. Let us help you achieve your goals with our expertise and dedication.</p>
         </div>
         <img src="images/home.jpeg" alt="Hero Image">
+        
     </section>
-
+    <button id="themeToggle">Switch Theme</button>
+     
     <section class="flex-container">
         <div class="intro">
             <h2>About Us</h2>
             <p>We are a passionate team committed to delivering top-tier services tailored to your needs. With years of experience and a customer-centric approach, we strive to provide innovative and effective solutions.</p>
             <p>Our expertise spans various industries, ensuring we bring the best practices to your business. We believe in continuous improvement and excellence in all that we do.</p>
             <a href="#" class="button">Learn More</a>
+            <h2>Team Members</h2>
+        <ul id="userList"></ul>
+        <button id="loadUsersBtn">Load Users</button>
+        
         </div>
+        
     
         <aside class="sidebar">
             <h2>Latest News</h2>
@@ -41,10 +50,19 @@
             </ul>
             <a href="#" class="button">Read More</a>
         </aside>
+        
     </section>
+    <button id="backToTop" title="Back to Top">↑</button>
+
     </section>
     <!-- footer.html -->
     <footer>
+        <div class="faq-item">
+            <h3 class="question">What is this website about?</h3>
+            <p class="answer">This is a demo project for learning web
+            development.</p>
+            </div>
+            
     <p>&copy; 2025 MIT. All Rights Reserved.</p>
     <div class="socials">
         <a href="https://facebook.com" target="_blank"><img src="images/fb.webp" alt="Facebook"></a>
