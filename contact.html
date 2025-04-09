@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
 </head>
 <body>
 
     <!-- Navigation Bar -->
     <nav>
         <div class="logo">
-            <a href="index.html">MIT</a>
+            <a href="index.html">Home</a>
         </div>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -20,25 +22,29 @@
         </ul>
     </nav>
 
-    <!-- Contact Form Section -->
     <section class="contact-form">
         <h1>Contact Us</h1>
-        <form action="#" method="POST">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-
+        <form id="contactForm" action="#" method="POST">
+            <label for="nameInput">Full Name</label>
+            <input type="text" id="nameInput" name="name" placeholder="Your Name" required>
+    
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Your Email" required>
-
+    
             <label for="subject">Subject</label>
             <input type="text" id="subject" name="subject" placeholder="Subject" required>
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-
+    
+            <label for="messageInput">Message</label>
+            <textarea id="messageInput" name="message" placeholder="Your Message" rows="5" required></textarea>
+    
             <button type="submit">Send Message</button>
         </form>
+    
+        <!-- Response Message -->
+        <div id="response" style="margin-top: 15px; font-weight: bold;"></div>
     </section>
+    
+    <button id="themeToggle">Switch Theme</button>
 
        <!-- footer-->
    <footer>

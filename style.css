@@ -353,3 +353,92 @@ footer {
         text-align: center;
     }
 }
+/*dark theme*/    
+/* Default Light Theme */
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-theme nav {
+    background-color: #1f1f1f;
+}
+
+body.dark-theme .hero,
+body.dark-theme .intro,
+body.dark-theme .sidebar,
+body.dark-theme footer {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+body.dark-theme a {
+    color: #90cdf4;
+}
+
+/* Optional: Button styling for visibility */
+#themeToggle {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px;
+    background: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+body.dark-theme #themeToggle {
+    background: #eee;
+    color: #000;
+}
+/*loadUsrBtn*/
+#loadUsersBtn {
+    background-color: #007bff; /* Bootstrap blue */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#loadUsersBtn:hover {
+    background-color: #0056b3;
+}
+/*answer*/
+.answer {
+    display: none;
+    }
+    .answer.visible {
+    display: block;
+    }
+    /*back to top btn as bonus task*/
+    #backToTop {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        display: none; /* hidden by default */
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 12px 16px;
+        border-radius: 50%;
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        transition: opacity 0.3s ease;
+    }
+    
+    #backToTop:hover {
+        background-color: #0056b3;
+    }
+    
